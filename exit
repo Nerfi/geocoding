@@ -1,0 +1,35 @@
+[33mcommit 62f32d69eea2f63e4e4d72b025c3db8a3d0f191b[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Juan Paredes <juanchuu.jfpc@gmail.com>
+Date:   Tue Feb 19 17:52:10 2019 +0100
+
+    configured the flats_controller because we want to display a map on the flats#index
+
+[33mcommit 164beb15e35f910fc3755b7ed31381fb3ad1e7de[m
+Author: Juan Paredes <juanchuu.jfpc@gmail.com>
+Date:   Tue Feb 19 17:37:55 2019 +0100
+
+    update flat model
+
+[33mcommit 4fba2d5ff3a8a96855e80e738d5c70f49c92c941[m
+Author: Juan Paredes <juanchuu.jfpc@gmail.com>
+Date:   Tue Feb 19 17:29:29 2019 +0100
+
+    Add two columns to your model you want to geocode
+
+[33mcommit 0ae83e90fd0d67cb0816f1aee01f00a4e37e2c46[m
+Author: Juan Paredes <juanchuu.jfpc@gmail.com>
+Date:   Tue Feb 19 17:25:51 2019 +0100
+
+    addede config for geocoder
+
+[33mcommit 3fa40239aa354c67f21879c45fe0d104a9873d80[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Juan Paredes <juanchuu.jfpc@gmail.com>
+Date:   Tue Feb 19 17:24:00 2019 +0100
+
+    adding geocoder gem
+
+[33mcommit 1f00e8799805c0681635f75fbb10830edb37ebe2[m
+Author: Juan Paredes <juanchuu.jfpc@gmail.com>
+Date:   Tue Feb 19 17:22:06 2019 +0100
+
+    Initial commit with minimal template from https://github.com/lewagon/rails-templates
