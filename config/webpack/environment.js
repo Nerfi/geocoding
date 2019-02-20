@@ -12,7 +12,7 @@ environment.plugins.prepend('Provide',
 module.exports = environment
 
 
-
+/// codigo copiado de github
 const { environment } = require('@rails/webpacker')
 const webpack = require('webpack')
 const dotenv = require('dotenv')
