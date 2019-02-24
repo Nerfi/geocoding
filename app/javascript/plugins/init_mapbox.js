@@ -3,6 +3,9 @@ import mapboxgl from 'mapbox-gl';
 // importando yarn package to search on the map
 import MapboxGeocoder from '@mapbox/mapbox-gl-geocoder';
 
+//importando autcomplete
+import places from 'places.js';
+
 
 const initMapbox = () => {
   const mapElement = document.getElementById('map');
@@ -42,4 +45,6 @@ if (mapElement) {
 };
 
 
+
 export { initMapbox };
+
