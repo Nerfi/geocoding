@@ -13,6 +13,9 @@ const initMapbox = () => {
   markers.forEach((marker) => {
     new mapboxgl.Marker()
       .setLngLat([ marker.lng, marker.lat ])
+      //ciopiando lo que aparece en la lecture
+      .setPopup(new mapboxgl.Popup({ offset: 25})
+      .setHTML(marker.infoWindow.content))
       .addTo(map);
   });
   // con esto conseguimos centrar los markets para que no tengamos nosotros que hacer zoom
