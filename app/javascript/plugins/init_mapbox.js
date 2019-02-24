@@ -1,5 +1,9 @@
 import mapboxgl from 'mapbox-gl';
 
+// importando yarn package to search on the map
+import MapboxGeocoder from '@mapbox/mapbox-gl-geocoder';
+
+
 const initMapbox = () => {
   const mapElement = document.getElementById('map');
 
@@ -28,6 +32,8 @@ const initMapbox = () => {
 if (mapElement) {
   // [ ... ]
   fitMapToMarkers(map, markers);
+  map.addControl(new MapboxGeocoder({ accessToken: mapboxgl.accessToken }));
+
 
 }
   }
