@@ -1,0 +1,83 @@
+[33mcommit 83d8bb189e052645a1b3f95e428d21e66b4dc841[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Juan Paredes <juanchuu.jfpc@gmail.com>
+Date:   Sun Feb 24 12:35:43 2019 +0100
+
+    not workign map.js
+
+[33mcommit bf2e1fd7a8f5c0b32628e889dbedc0a49f61b84b[m
+Author: Juan Paredes <juanchuu.jfpc@gmail.com>
+Date:   Sat Feb 23 23:41:54 2019 +0100
+
+    .
+
+[33mcommit c9465d23f09ea05ff7bd2a1256ff0c0938c27075[m
+Author: Juan Paredes <juanchuu.jfpc@gmail.com>
+Date:   Thu Feb 21 14:21:24 2019 +0100
+
+    map still not working
+
+[33mcommit e2e49b9c208d988ac4192640ce8a4d819444e1fc[m
+Author: Juan Paredes <juanchuu.jfpc@gmail.com>
+Date:   Wed Feb 20 12:36:59 2019 +0100
+
+    still not working
+
+[33mcommit fa31770277f2d714b24514fda532968147937ace[m
+Author: Juan Paredes <juanchuu.jfpc@gmail.com>
+Date:   Wed Feb 20 12:19:10 2019 +0100
+
+    map not workign
+
+[33mcommit 575f41962e7de513c11867b86e7553da903f962b[m
+Author: Juan Paredes <juanchuu.jfpc@gmail.com>
+Date:   Tue Feb 19 18:56:02 2019 +0100
+
+    map not displaying
+
+[33mcommit 63606917cb68350da1b9266e14b9ca0b001103b3[m
+Author: Juan Paredes <juanchuu.jfpc@gmail.com>
+Date:   Tue Feb 19 18:01:57 2019 +0100
+
+    added js fot the map,pd: look at the commments
+
+[33mcommit 4901221daf2169bc98981918bf55dded8809b69b[m
+Author: Juan Paredes <juanchuu.jfpc@gmail.com>
+Date:   Tue Feb 19 17:55:10 2019 +0100
+
+    added id to the view to display map
+
+[33mcommit 62f32d69eea2f63e4e4d72b025c3db8a3d0f191b[m
+Author: Juan Paredes <juanchuu.jfpc@gmail.com>
+Date:   Tue Feb 19 17:52:10 2019 +0100
+
+    configured the flats_controller because we want to display a map on the flats#index
+
+[33mcommit 164beb15e35f910fc3755b7ed31381fb3ad1e7de[m
+Author: Juan Paredes <juanchuu.jfpc@gmail.com>
+Date:   Tue Feb 19 17:37:55 2019 +0100
+
+    update flat model
+
+[33mcommit 4fba2d5ff3a8a96855e80e738d5c70f49c92c941[m
+Author: Juan Paredes <juanchuu.jfpc@gmail.com>
+Date:   Tue Feb 19 17:29:29 2019 +0100
+
+    Add two columns to your model you want to geocode
+
+[33mcommit 0ae83e90fd0d67cb0816f1aee01f00a4e37e2c46[m
+Author: Juan Paredes <juanchuu.jfpc@gmail.com>
+Date:   Tue Feb 19 17:25:51 2019 +0100
+
+    addede config for geocoder
+
+[33mcommit 3fa40239aa354c67f21879c45fe0d104a9873d80[m
+Author: Juan Paredes <juanchuu.jfpc@gmail.com>
+Date:   Tue Feb 19 17:24:00 2019 +0100
+
+    adding geocoder gem
+
+[33mcommit 1f00e8799805c0681635f75fbb10830edb37ebe2[m
+Author: Juan Paredes <juanchuu.jfpc@gmail.com>
+Date:   Tue Feb 19 17:22:06 2019 +0100
+
+    Initial commit with minimal template from https://github.com/lewagon/rails-templates
