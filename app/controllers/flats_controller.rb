@@ -11,4 +11,11 @@ def index
     end
   end
 
+  #NoMethodError in Flats#new = CREAR EL METODO!
+
+  def new
+    @flat = Flat.new
+
+  end
+
 end
