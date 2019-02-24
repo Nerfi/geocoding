@@ -6,7 +6,7 @@ def index
       {
         lng: flat.longitude,
         lat: flat.latitude,
-        infoWindow: render_to_string(partial:"infowindow", locals: {flat: flat})
+        infoWindow: render_to_string(partial:"/flats/map_box", locals: {flat: flat})
       }
     end
   end
