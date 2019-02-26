@@ -1,8 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<div class="card-container">
-  <div class="row">
-    <div class="col-sx-12 col-sm-6 col-me-4">
+
 <h1>Flats</h1>
 
 <table>
@@ -31,9 +29,7 @@
 
 <%= link_to 'New Flat', new_flat_path %>
 <!-- adding the map id in the index page, where we want to display the map -->
-</div>
-</div>
-</div>
+
 <div
   id="map"
   style="width: 100%;
@@ -43,7 +39,7 @@
 ></div>
 
 
-
+<!-- NO FUNCIONA EL PONER EL MAPA A LA DERECHA CON FLEXBOX Y BOOSTRAP
   <div class="main-container">
   <div class="row">
     <div class="col-sm-6 invisible col-2">
@@ -64,3 +60,20 @@
 </div>
 
 
+<div class="main-container">
+  <div class="cards-container">
+  <div class="row">
+    div.
+
+  </div>
+  </div>
+
+       <div
+    id="map"
+    style="width: 100%;
+    height: 100vh;"
+    data-markers="<%= @markers.to_json %>"
+    data-mapbox-api-key="<%= ENV['MAPBOX_API_KEY'] %>"
+ ></div>
+</div>
+-->

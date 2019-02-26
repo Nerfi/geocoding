@@ -12,12 +12,16 @@
 .main-container {
   display: flex;
 }
+
 #map {
   flex: 0 0 450px;
   height: 100vh;
-  position: sticky !important; /* !important to override Gmaps inline CSS */
+   position: sticky !important; /* !important to override Gmaps inline CSS */
   top: 0 !important;
   /*display: flex;*/
+  flex-grow: 1;
 
 }
-
+.cards-container{
+flex-grow: 1;
+}
